@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="321dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="1dp"
+            android:layout_height="216dp"
+            android:text="Welcome to PetShop"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="220dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="335dp"
+            android:layout_height="349dp"
+            app:srcCompat="@drawable/dog"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="-38dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="369dp"
+        android:layout_height="13dp"
+        android:layout_weight="40"
+        android:text="Your Lovely PetShop"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/buttonDog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dog"/>
+
+    <Button
+        android:id="@+id/buttonCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cat"/>
+
+    <Button
+        android:id="@+id/buttonBird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bird"/>
+
+    <Button
+        android:id="@+id/buttonFish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fish"/>
+
+</LinearLayout>
+
+
